@@ -17,17 +17,17 @@ public class ProyectoFinal extends AppCompatActivity {
         tabHost = (TabHost)findViewById(R.id.tabhost);
         tabHost.setup();
 
-        TabHost.TabSpec spec = tabHost.newTabSpec("Tab uno");
+        TabHost.TabSpec spec = tabHost.newTabSpec("Pestaña uno");
         spec.setContent(R.id.Peliculas);
         spec.setIndicator("Peliculas");
         tabHost.addTab(spec);
 
-        spec = tabHost.newTabSpec("Tab dos");
+        spec = tabHost.newTabSpec("Pestaña dos");
         spec.setContent(R.id.Series);
         spec.setIndicator("Series");
         tabHost.addTab(spec);
 
-        spec = tabHost.newTabSpec("Tab tres");
+        spec = tabHost.newTabSpec("Pestaña tres");
         spec.setContent(R.id.Anime);
         spec.setIndicator("Anime");
         tabHost.addTab(spec);
